@@ -1,0 +1,12 @@
+main{
+    margin: auto;
+    max-width: 600px;
+    border: 3px black solid;
+    background-color: rgb(163, 255, 240);
+    padding: 10px;
+    border-radius: 30px;
+}
+
+body{
+    background-color: rgb(113, 255, 255);
+}

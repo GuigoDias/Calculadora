@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Simulador de operações básicas</h1>
+        <h2>Escolha a operação:</h2>
+        <ul>
+            <li>1. Soma</li>
+            <li>2. Subtração</li>
+            <li>3. Multiplicação</li>
+            <li>4. Divisão</li>
+        </ul>
+        <input type="text" id="operacao">
+        <h2>Digite os operandos:</h2>
+        <input type="number" id="N1">
+        <input type="number" id="N2">
+        <button onclick="Calcular()">Calcular</button>
+        <h3>Resposta:</h3>
+        <h3 id="resposta"></h3>
+    </main>
+
+    <div id="Hist">Historico:</div>
+    <script src="script.js"></script>
+</body>
+</html>
